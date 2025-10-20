@@ -1,0 +1,19 @@
+  - v1.1.0 (2025-10-14):
+      - **Code Analysis**: Completed full code review against Open WebUI Module Refactoring Guide
+      - **Documentation**: Analysis findings available in [Code_Analysis_Report.md](Code_Analysis_Report.md)
+      - **Compliance**: Module is production-ready and exceeds refactoring guide requirements
+      - **Note**: Only minor header update was required; module already followed best practices
+  - v1.1.0 (2025-10-10):
+      - Refactored module to match Open WebUI Module Refactoring Guide standards
+      - Added type hints to all function signatures and class definitions
+      - Improved docstrings with Google-style documentation
+      - Added VERBOSE_LOGGING valve for configurable debug output
+      - Added SHOW_STATUS valve for configurable event emitter control
+      - Implemented log sanitization and truncation utilities
+      - Added comprehensive input validation
+      - Enhanced error handling with better context and error messages
+      - Updated module description and header documentation
+      - Improved code organization and structure
+      - Renamed valves to use consistent naming convention (show_status -> SHOW_STATUS, max_turns -> MAX_TURNS, token_limit -> TOKEN_LIMIT)
+  - v1.0.0 (2025-08-19):
+      - Initial release

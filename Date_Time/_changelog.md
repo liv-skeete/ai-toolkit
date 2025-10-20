@@ -1,0 +1,17 @@
+  - v1.3.0 (2025-10-09):
+      - Refactored module to match Open WebUI Module Refactoring Guide standards
+      - Added type hints to all function signatures and class definitions
+      - Improved docstrings with Google-style documentation
+      - Added VERBOSE_LOGGING valve for configurable debug output
+      - Added SHOW_STATUS valve for configurable event emitter control
+      - Implemented log sanitization and truncation utilities
+      - Added comprehensive input validation
+      - Enhanced error handling with better context and error messages
+      - Updated module description and header documentation
+      - Improved code organization and structure
+  - v1.2.0 (2025-07-31):
+      - Added standard logging and priority valve.
+  - v1.1.0 (2025-07-31):
+      - Removed time of day calculation for minimalism.
+  - v1.0.0 (2025-07-31):
+      - Initial release.
